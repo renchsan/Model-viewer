@@ -1,0 +1,190 @@
+@font-face {
+  font-family: font_content;
+  src: url("../fonts/Stag-Light.otf");
+}
+
+@font-face {
+  font-family: font_titles;
+  src: url("../fonts/Stag-Book.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f0ede3
+}
+
+header{
+  background-color: #f0ede3;
+  margin: 0px;
+  padding: 0px;
+  min-height: 3em;
+  max-height: 5em;
+  color: #111;
+  align-items: Left;
+  justify-content: left;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+.back_btn{
+  padding:1em;
+  width: 2em;
+  z-index: 15;
+}
+
+h1 {
+  font-family: font_titles;
+  /*font-size: 3em;*/
+  font-size: x-large;
+  color: rgb(76, 51, 39);
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+h3 {
+  font-family: font_titles;
+  /*font-size: 2em;*/
+  font-size: large;
+  color: rgb(76, 51, 39);
+  text-align: left;
+  width: 100%;
+  margin-top: 3em;
+}
+
+h4{
+  font-family: font_titles;
+  margin-top: 1em;
+  /*font-size: 1em;*/
+  font-size: medium;
+  color: #777;
+  text-align: left;
+  width:100%;
+}
+
+p{
+  font-family: font_content;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  line-height: 130%;
+}
+
+table {
+  width: 100%;
+}
+
+td{
+  font-size: 1em;
+  padding-top: 1em;
+  font-family: font_content;
+}
+
+.right-align{
+  text-align: right;
+}
+
+iframe{
+  border:none;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+banner {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height: 60%;
+  margin:auto;
+}
+
+#card {
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  justify-content: center;
+  width:90%;
+  min-height:100%;
+  max-width: 1440px;
+}
+
+model-viewer {
+  width: 100%;
+  height: 85%;
+  margin-top: 3em;
+}
+
+canvas:focus {
+  /*outline: 0;*/
+  outline: #f0ede3
+}
+
+/*when the browser window is 600px wide or less*/
+@media only screen and (max-width: 600px) {
+  #card {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  model-viewer {
+    width: 100%;
+    height: 400px;
+    margin-top: 3em;
+  }
+}
+
+content {
+  margin:auto;
+  padding-bottom: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  width:90%;
+  max-width: 720px;
+}
+
+.banner-img{
+  object-fit: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sticky {
+  position: fixed;
+}
+
+
+
+.attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.attribution img {
+  opacity: 0.5;
+  height: 2em;
+}
+
+.attribution .cc {
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5em;
+}

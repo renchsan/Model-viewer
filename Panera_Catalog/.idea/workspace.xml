@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="549cdbfc-8911-448e-a835-791649fe39c0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZrA3JnQpmyW71VsK6CkC6OkBM2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Model-viewer" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\QReal\Projects\PaneraBread_MV\Panera_Catalog\items\assets" />
+      <recent name="E:\Work\QReal\Projects\PaneraBread_MV\Panera_Catalog" />
+      <recent name="E:\Work\QReal\Projects\PaneraBread_MV\Panera_Catalog\items" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="549cdbfc-8911-448e-a835-791649fe39c0" name="Default Changelist" comment="" />
+      <created>1585586638909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585586638909</updated>
+      <workItem from="1585586640968" duration="13563000" />
+      <workItem from="1585665459866" duration="5783000" />
+      <workItem from="1585676543714" duration="602000" />
+      <workItem from="1585853721778" duration="1086000" />
+      <workItem from="1585923720927" duration="3297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1015" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585676529516">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1015" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.109.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1585676529516" />
+    <state x="167" y="333" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585596659213">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="167" y="333" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.109.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1585596659213" />
+    <state x="1114" y="289" key="FileChooserDialogImpl" timestamp="1585931487573">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1114" y="289" key="FileChooserDialogImpl/1920.109.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1585931487573" />
+    <state x="48" y="229" key="SettingsEditor" timestamp="1585596036131">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="48" y="229" key="SettingsEditor/1920.109.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1585596036131" />
+    <state x="892" y="101" width="788" height="1146" key="dock-window-1" timestamp="1585601382600">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="892" y="101" width="788" height="1146" key="dock-window-1/1920.109.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1585601382600" />
+    <state x="238" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1585665517129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="238" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585665517129" />
+  </component>
+</project>

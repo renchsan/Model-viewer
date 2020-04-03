@@ -1,0 +1,130 @@
+@font-face {
+  font-family: font_content;
+  src: url("fonts/Stag Sans-Thin.otf");
+}
+
+@font-face {
+  font-family: font_titles;
+  src: url("fonts/Stag-Book.otf");
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f0ede3;
+}
+
+/*header{*/
+/*  background-color: #f0ede3;*/
+/*  margin: 0px;*/
+/*  padding: 0px;*/
+/*  min-height: 2em;*/
+/*  font-size: 2em;*/
+/*  color: #111;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  display: flex;*/
+/*  position: fixed;*/
+/*  width: 100%;*/
+/*}*/
+
+header {
+  background-color: #f0ede3;
+  margin: 0px;
+  padding: 0px;
+  min-height: 1em;
+  font-size: 1.3em;
+  color: #111;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+banner {
+  min-height: 70%;
+  max-height: 90%;
+  width:100%;
+  display: flex;
+  min-width:100%;
+  justify-content: center;
+}
+
+h1{
+  font-family: font_titles;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: font_titles;
+    font-size: 2em;
+    color: rgb(76, 51, 39);
+  padding: 0em 1em 0em 1em;
+  text-align: center;
+}
+
+h3{
+  font-family: font_content;
+  font-size: 1.8em;
+  color: #777;
+  padding: 0em 1em 3em 1em;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*banner {*/
+/*  min-height: 50%;*/
+/*  max-height: 70%;*/
+/*  width:100%;*/
+/*  display: flex;*/
+/*  min-width:100%;*/
+/*!*   background-color: white; *!*/
+/*  justify-content: center;*/
+/*}*/
+
+.banner-img{
+  object-fit: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+content {
+  display: flex;
+  flex-wrap: wrap;
+  /* min-width: 100%; */
+  width:100%;
+  max-width: 1440px;
+
+    margin:auto;
+/*   background-color:white; */
+}
+
+card {
+  min-width: 50%;
+  max-width: 50%;
+  width: 50%;
+/*   background-color: white; */
+
+/*     display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+  width:100%;
+  min-width:100%;
+  object-fit: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sticky {
+  position: fixed;
+}

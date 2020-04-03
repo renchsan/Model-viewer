@@ -1,0 +1,179 @@
+@font-face {
+  font-family: font_content;
+  src: url("../fonts/Stag Sans-Thin.otf");
+}
+
+@font-face {
+  font-family: font_titles;
+  src: url("../fonts/Stag-Book.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f0ede3
+}
+
+header{
+  background-color: #f0ede3;
+  margin: 0px;
+  padding: 0px;
+  min-height: 3em;
+  max-height: 5em;
+  color: #111;
+  align-items: Left;
+  justify-content: left;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+.back_btn{
+  padding:2em;
+  width: 5em;
+}
+
+/* h1{
+  font-family: Stag-Sans-Bold;
+  font-size: 0.6em;
+  padding: 0em 1em 0em 1em;
+} */
+
+h1 {
+
+  font-family: font_titles;
+  font-size: 3em;
+  color: rgb(76, 51, 39);
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+
+h3 {
+  font-family: font_titles;
+  font-size: 2em;
+  color: rgb(76, 51, 39);
+  text-align: left;
+  width: 100%;
+  margin-top: 3em;
+}
+
+h4{
+  font-family: font_titles;
+  margin-top: 0.8em;
+  font-size: 2em;
+  color: #777;
+  text-align: left;
+  width:100%;
+}
+
+p{
+  font-size: 2em;
+  font-family: font_content;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+}
+
+td{
+  font-size: 2em;
+  padding-top: 1em;
+  font-family: font_content;
+
+}
+
+.right-align{
+  text-align: right;
+}
+
+modelviewer{
+  border-style: solid;
+}
+
+iframe{
+  border:none;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+banner {
+  display: flex;
+  justify-content: center;
+  width:90%;
+
+  min-height: 70%;
+    margin:auto;
+/*   min-height:50%; */
+}
+
+content {
+  margin:auto;
+  padding-bottom: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  width:90%;
+  max-width: 720px;
+/*   background-color:white; */
+}
+
+.banner-img{
+  object-fit: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sticky {
+  position: fixed;
+}
+
+#card {
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #999;
+  display: flex;
+  justify-content: center;
+  width:90%;
+  min-height:100%;
+  max-width: 1440px;
+}
+
+model-viewer {
+  /* remove the background-image */
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#f9f9f9, #f1f1f1)
+}
+
+.attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.attribution img {
+  opacity: 0.5;
+  height: 2em;
+}
+
+.attribution .cc {
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5em;
+}
