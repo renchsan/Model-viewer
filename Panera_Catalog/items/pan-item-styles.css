@@ -132,7 +132,7 @@ canvas:focus {
     flex-direction: column;
     max-width: 600px;
     border-radius: 6px;
-    overflow: hidden;
+    overflow: visible;
   }
 
   model-viewer {
