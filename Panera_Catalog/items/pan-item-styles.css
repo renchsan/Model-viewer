@@ -142,7 +142,8 @@ canvas:focus {
   }
 }
 
-content {
+main {
+  padding-top: 2em;
   margin:auto;
   padding-bottom: 5em;
   display: flex;
