@@ -128,11 +128,10 @@ canvas:focus {
 /*when the browser window is 600px wide or less*/
 @media only screen and (max-width: 600px) {
   #card {
-    display: flex;
-    flex-direction: column;
+
     max-width: 600px;
     border-radius: 6px;
-    overflow: visible;
+    overflow: hidden;
   }
 
   model-viewer {
